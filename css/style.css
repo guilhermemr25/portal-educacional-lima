@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: gainsboro;
+    background-color: #f8fbff;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h2 {
 }
 
 #inicio {
-    background-color: black;
+    background-color: #06142E;
     color: white;
     padding: 20px;
     display: flex;
@@ -31,7 +31,8 @@ h2 {
     flex-direction: row;
     gap: 30px;
     padding: 20px;
-    background-color: silver;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #312e81 100%); 
+    color: white;
     align-items: center;
     justify-content: space-between;
 }
@@ -55,8 +56,8 @@ a {
 }
 
 #banner img {
-    width: 170px;
-    height: 200px;
+    width: 340px;
+    height: 100px;
 }
 
 #banner h2 {
@@ -80,11 +81,11 @@ a {
 }
 
 .card {
-    background-color: white;
+    background-color: #bff0ff;
     width: 30%;
     padding: 20px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .card h4 {
@@ -103,7 +104,7 @@ a {
 
 footer {
     padding: 30px;
-    background-color: black;
+    background-color: #06142E;
     display: flex;
     justify-content: space-between;
     align-items: center;
