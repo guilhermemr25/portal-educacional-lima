@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: gainsboro;
+    background-color: #F8FBFF;
 }
 
 h1 {
@@ -17,8 +17,12 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header {
+    background-color: #06142E;
+}
+
 #inicio {
-    background-color: black;
+    background-color: #06142E;
     color: white;
     padding: 20px;
     display: flex;
@@ -26,9 +30,43 @@ h2 {
     align-items: center;
 }
 
+#inicio h1 {
+    color: #F8FBFF;
+}
+
+#inicio a {
+    color: #BFF0FF;
+    text-decoration: none;
+    background-color: #713BEA;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: #BFF0FF;
+}
+
+#banner img {
+    width: 400px;
+}
+
+#banner h2 {
+    color: #06142E;
+    margin-bottom: 15px;
+}
+
+#banner p {
+    color: #06142E;
+}
+
 footer {
     padding: 30px;
-    background-color: black;
+    background-color: #06142E;
     display: flex;
     justify-content: space-between;
     align-items: center;
