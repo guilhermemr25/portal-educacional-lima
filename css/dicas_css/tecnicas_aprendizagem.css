@@ -1,0 +1,96 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#banner {
+    background: 
+        linear-gradient( /*cria o degrade*/
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5) /*representa a cor que vc quer. O ultimo num. sempre sera a transparencia (50%)*/
+        ),
+        url("assets/img/dicas_img/menino_estudo.png"); /*Coloca a img (n precisa por no html)*/
+
+    background-size: cover; /*preenche o banner*/
+    background-position: center;
+    height: 300px;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px;
+}
+
+#banner p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#dicas {
+    background: gray;
+    padding: 30px;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    max-height: 25%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card p {
+    padding: 10px
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
