@@ -1,25 +1,29 @@
-* {
+ * {
  padding: 0;
  margin: 0;
  box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(216, 215, 197);
+    background-color: #cdd4de
 }
+
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: snow;
 }
 
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 #inicio {
-    background-color: black;
+    background-color: #06142E;
     color: white;
     padding: 20px;
     display: flex;
@@ -27,16 +31,19 @@ h2 {
     align-items: center;
 }
 
+
 #banner {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
     padding: 50px;
     background-color: snow;
     align-items: center;
     justify-content: space-between;
-    
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #312e81 100%); 
+    color: #ffffff; 
 }
+
 
 a {
     text-decoration: none;
@@ -47,20 +54,25 @@ a {
     font-weight: bold;
 }
 
+
 #banner img {
     max-width: 450px;
+    width: 100%;
 }
+
 
 #banner h2 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
+
 #destaques {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 
 #cards {
     display: flex;
@@ -69,9 +81,8 @@ a {
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-
-
 }
+
 
 .card {
     background-color: white;
@@ -82,26 +93,31 @@ a {
     border-radius: 10px;
 }
 
+
 .card h4 {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
+
 .card p {
     margin-bottom: 15px;
 }
 
+
 footer {
     padding: 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: #06142E;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
 footer p {
     color: white;
 }
+
 
 h2 {
     font-size: 24px;
@@ -109,4 +125,9 @@ h2 {
     padding: 5px;
     width: 100%;
     size: 100%;
+}
+
+
+img {
+    width: 50%;
 }
