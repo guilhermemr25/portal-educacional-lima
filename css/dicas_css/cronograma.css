@@ -1,0 +1,134 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#banner {
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+#tabela {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    height: 100%;
+    padding-bottom: 05px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto; /*alinha a img atumaticamente no card*/
+    margin-bottom: 50px;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: left;
+    background-color: rgba(170, 196, 221, 0.24);
+}
+
+th {
+    background-color: #dbeafed0;
+}
+
+caption {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+#local {
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#local h2 {
+    padding: 20px;
+}
+
+#local img {
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+footer {
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
