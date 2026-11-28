@@ -4,14 +4,6 @@
  box-sizing: border-box;
 }
 
-#head {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
-}
-
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: gainsboro;
@@ -27,13 +19,29 @@ h2 {
     color: black;
 }
 
-#inicio {
+#head {
     background-color: black;
-    color: white;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
     align-items: center;
+}
+
+#head a:hover { /*Hover é respindavel por indicar o que vai acontecer ao passar o maouse por cima*/
+    background-color: gray;
+    transition: 0.5s;
+}
+
+#head a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 05px;
+    text-align: center;
 }
 
 #banner {
@@ -50,7 +58,7 @@ h2 {
 
 #banner a {
     padding: 14px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: rgba(0, 17, 92, 0.884);
     color: white;
     transition: 1s; /*comando novo: adiciona um "surgimento" do item conforme o tempo delimitado*/
@@ -58,15 +66,6 @@ h2 {
     width: 100%;
     text-align: center;
     display: block; /*novo comando: block faz a linha ocupar o espaço interiro do card*/
-}
-
-#head a {
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bold;
 }
 
 #banner img {
@@ -147,4 +146,19 @@ footer {
 
 footer p {
     color: white;
+}
+
+#footer a:hover { /*Hover é respindavel por indicar o que vai acontecer ao passar o maouse por cima*/
+    background-color: gray;
+    transition: 0.5s;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
 }

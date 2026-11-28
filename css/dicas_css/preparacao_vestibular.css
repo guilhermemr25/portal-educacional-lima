@@ -24,16 +24,27 @@ h2 {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    color: white;
 }
 
-a {
+#head img {
+    height: 100px;
+}
+
+#head a:hover { /*Hover é respindavel por indicar o que vai acontecer ao passar o maouse por cima*/
+    background-color: gray;
+    transition: 0.5s;
+}
+
+#head a {
     text-decoration: none;
     color: white;
     border: 1px solid white;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 30px;
+    padding: 15px;
     font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
 }
 
 #banner {
@@ -42,7 +53,7 @@ a {
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5) /*representa a cor que vc quer. O ultimo num. sempre sera a transparencia (50%)*/
         ),
-        url("assets/img/dicas_img/menino_estudo.png"); /*Coloca a img (n precisa por no html)*/
+        url("../../assets/img/dicas_img/menino_estudo.png"); /*Coloca a img (n precisa por no html)*/
 
     background-size: cover; /*preenche o banner*/
     background-position: center;
@@ -53,6 +64,8 @@ a {
     flex-direction: column;
     text-align: center;
     padding: 150px;
+    border-radius: 20px;
+    margin: 5px;
 }
 
 #banner p {
@@ -65,22 +78,47 @@ a {
     padding: 30px;
 }
 
-#card {
+#cards {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
 }
 
 .card {
     background-color: white;
+    width: 40%;
+    max-height: 50%;
     padding: 20px;
-    max-height: 25%;
+    text-align: left;
     border-radius: 10px;
-    margin: 20px;
+    border-left: 20px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 3px 10px black;
 }
 
-.card p {
+.card p, h2 {
     padding: 10px
+}
+
+
+#footer a:hover { /*Hover é respindavel por indicar o que vai acontecer ao passar o maouse por cima*/
+    background-color: gray;
+    transition: 0.5s;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
